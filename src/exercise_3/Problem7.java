@@ -12,7 +12,7 @@ class B5 {
 	}
 }
 
-public class Problem7 extends A5{
+public class Problem7 extends A5,B5{
 	@Override
 	public void fun() {
 		System.out.println("overridden method");

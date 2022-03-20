@@ -6,7 +6,6 @@ interface A6 {
 
 interface B6 {
 	void fun();
-		
 }
 
 public class Problem8 implements A6,B6{

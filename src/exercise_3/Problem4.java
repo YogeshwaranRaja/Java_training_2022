@@ -10,9 +10,9 @@ class A2 {
 
 class B2 extends A2 {
 
-	//void test() {
-	//	
-	//}
+//	void test() {
+//		
+//	}
 }
 
 public class Problem4 {
