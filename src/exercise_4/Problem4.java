@@ -4,7 +4,7 @@ class Counter1{
 	int counter;
 	
 	public void incrementCounter() {
-		System.out.println(++this.counter);
+		System.out.println(++counter);
 	}
 }
 
@@ -16,13 +16,14 @@ class Counter2{
 	}
 }
 
-public class Problem3 {
+public class Problem4 {
 	static void staticMethod() {
 		System.out.println("Hii I'am the static method");
 	}
 	
 	 void notAStaticMethod() {
 		System.out.println("Hii I'am the notAStatic method");
+		Problem3.main(new String[]{"Hello"});
 	}
 	
 	public static void main(String[] args) {
@@ -36,8 +37,8 @@ public class Problem3 {
 		obj3.incrementCounter();
 		obj4.incrementCounter();
 		
-		Problem3.staticMethod();
-		new Problem3().notAStaticMethod();
+		Problem4.staticMethod();
+		new Problem4().notAStaticMethod();
 		
 	}
 }

@@ -33,11 +33,15 @@ class UnchangeableChild extends UnchangeableClass{
 	}
 }
 
-public class Problem2 extends Integer{
+public class Problem2 extends Integer {
 	@Override
 	public String toString() {
 		System.out.println("Bruh! really ?");
 	}
+}
+
+class Problem3 extends ChangeIt{
+	
 }
 
 
